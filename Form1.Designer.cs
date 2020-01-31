@@ -112,7 +112,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox1.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox1.Location = new System.Drawing.Point(192, 99);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(37, 161);
@@ -122,7 +122,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox2.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox2.Location = new System.Drawing.Point(478, 97);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(35, 161);
@@ -132,7 +132,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox3.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox3.Location = new System.Drawing.Point(55, 308);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 174);
@@ -142,7 +142,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox4.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox4.Location = new System.Drawing.Point(373, 308);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(40, 174);
@@ -185,7 +185,7 @@
             // 
             // pacman
             // 
-            this.pacman.Image = global::Pacman.Properties.Resources.Left;
+            this.pacman.Image = global::Pacman.Properties.Resources.Right;
             this.pacman.Location = new System.Drawing.Point(312, 99);
             this.pacman.Name = "pacman";
             this.pacman.Size = new System.Drawing.Size(40, 40);
@@ -552,6 +552,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(609, 531);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

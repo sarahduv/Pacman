@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\cccc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\coin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\coint2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pink_guy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\red_guy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\yellow_guy.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
