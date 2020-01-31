@@ -12,7 +12,7 @@ namespace Pacman
 {
     public partial class Form1 : Form
     {
-        bool group;
+        bool goUp;
         bool goDown;
         bool goLeft;
         bool goRight;
@@ -35,6 +35,29 @@ namespace Pacman
 
         private void keyIsDown(object sender, KeyEventArgs e)
         {
+            if(e.KeyCode == Keys.Left)
+            {
+                goLeft = true;
+                pacman.Image = Properties.Resources.Left;
+            }
+
+            if(e.KeyCode == Keys.Right)
+            {
+                goRight = true;
+                pacman.Image = Properties.Resources.Right;
+            }
+
+            if(e.KeyCode == Keys.Up)
+            {
+                goUp = true;
+                pacman.Image = Properties.Resources.Up;
+            }
+
+            if(e.KeyCode == Keys.Down)
+            {
+                goDown = true;
+                pacman.Image = Properties.Resources.down;
+            }
 
         }
 
