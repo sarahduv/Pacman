@@ -186,7 +186,7 @@
             // pacman
             // 
             this.pacman.Image = global::Pacman.Properties.Resources.Right;
-            this.pacman.Location = new System.Drawing.Point(312, 99);
+            this.pacman.Location = new System.Drawing.Point(419, 43);
             this.pacman.Name = "pacman";
             this.pacman.Size = new System.Drawing.Size(40, 40);
             this.pacman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

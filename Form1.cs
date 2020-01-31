@@ -111,20 +111,20 @@ namespace Pacman
             redGhost.Left += ghost1;
             yellowGhost.Left += ghost2;
 
-            if (redGhost.Bounds.IntersectsWith(pictureBox4.Bounds))
+            if (redGhost.Bounds.IntersectsWith(pictureBox1.Bounds))
             {
                 ghost1 = -ghost1; // if the red ghost hits the wall then we reverse the speed
             }
-            else if (redGhost.Bounds.IntersectsWith(pictureBox3.Bounds))
+            else if (redGhost.Bounds.IntersectsWith(pictureBox2.Bounds))
             {
                 ghost1 = -ghost1; // if the red ghost hits the wall then we reverse the speed
             }
 
-            if (yellowGhost.Bounds.IntersectsWith(pictureBox1.Bounds))
+            if (yellowGhost.Bounds.IntersectsWith(pictureBox3.Bounds))
             {
                 ghost2 = -ghost2; // if the yellow ghost hits the wall then we reverse the speed
             }
-            else if (yellowGhost.Bounds.IntersectsWith(pictureBox2.Bounds))
+            else if (yellowGhost.Bounds.IntersectsWith(pictureBox4.Bounds))
             {
                 ghost2 = -ghost2; // if the yellow ghost hits the wall then we reverse the speed
             }
