@@ -186,7 +186,7 @@
             // pacman
             // 
             this.pacman.Image = global::Pacman.Properties.Resources.Right;
-            this.pacman.Location = new System.Drawing.Point(419, 43);
+            this.pacman.Location = new System.Drawing.Point(327, 308);
             this.pacman.Name = "pacman";
             this.pacman.Size = new System.Drawing.Size(40, 40);
             this.pacman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -539,11 +539,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(477, 26);
+            this.label2.Location = new System.Drawing.Point(423, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 31);
+            this.label2.Size = new System.Drawing.Size(162, 31);
             this.label2.TabIndex = 45;
-            this.label2.Text = "label2";
+            this.label2.Text = "Game Over";
             // 
             // timer1
             // 
@@ -559,6 +559,10 @@
             this.ClientSize = new System.Drawing.Size(609, 531);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pinkGhost);
+            this.Controls.Add(this.yellowGhost);
+            this.Controls.Add(this.redGhost);
+            this.Controls.Add(this.pacman);
             this.Controls.Add(this.pictureBox29);
             this.Controls.Add(this.pictureBox30);
             this.Controls.Add(this.pictureBox32);
@@ -589,10 +593,6 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pacman);
-            this.Controls.Add(this.pinkGhost);
-            this.Controls.Add(this.yellowGhost);
-            this.Controls.Add(this.redGhost);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
